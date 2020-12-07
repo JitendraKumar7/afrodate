@@ -1,0 +1,70 @@
+name: afrodate
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  dio: ^3.0.10
+  load: ^0.1.6
+  http: ^0.12.2
+  getwidget: ^1.2.4
+  image_picker: ^0.6.7+14
+  image_cropper: ^1.3.1
+  path_provider: ^1.6.24
+  firebase_core: ^0.5.2+1
+  firebase_auth: ^0.18.3+1
+  awesome_dialog: ^1.2.1
+  cupertino_icons: ^1.0.0
+  flutter_boom_menu: ^1.0.2
+  firebase_messaging: ^7.0.3
+  permission_handler: ^5.0.1+1
+  shared_preferences: ^0.5.12+4
+  easy_contact_picker: ^0.0.2
+  country_code_picker: ^1.6.2
+  flutter_local_notifications: ^3.0.1+6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/language/en.json
+    - assets/language/hi.json
+    - assets/ic_afro_date.png
+    - assets/ic_afro_date_logo.png
+    - assets/ic_female.png
+    - assets/ic_gender.png
+    - assets/ic_get_ready.png
+    - assets/ic_male.png
+    - assets/placeholder.jpg
+    - assets/home/ic_home_1.png
+    - assets/home/ic_home_3.png
+    - assets/home/ic_comment.png
+    - assets/home/ic_home_filter.png
+    - assets/images/demo_1.png
+    - assets/images/demo_2.png
+    - assets/images/demo_3.png
+    - assets/images/demo_4.png
+    - assets/images/demo_5.png
+    - assets/images/demo_6.png
+    - assets/images/demo_7.png
+    - assets/images/demo_8.png
+    - assets/images/demo_9.png
+    - assets/images/demo_10.png
+    - assets/images/demo_11.png
+    - assets/images/demo_12.png
+    - assets/images/demo_13.png
