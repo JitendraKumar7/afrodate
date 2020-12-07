@@ -495,12 +495,10 @@ class RegisterScreenState extends State<RegisterScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.white,
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Colors.black,
+            color: Colors.white,
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -510,13 +508,11 @@ class RegisterScreenState extends State<RegisterScreen> {
           children: [
             Text(
               'Sing Up',
-              style: TextStyle(color: Colors.black),
             ),
             Text(
               'It will take 30 second only',
               style: TextStyle(
                 fontSize: 10,
-                color: Colors.black54,
               ),
             )
           ],
@@ -597,7 +593,7 @@ class LoginScreenState extends State<LoginScreen> {
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Colors.black,
+            color: Colors.white,
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -687,7 +683,7 @@ class _RegistrationState extends State<Registration> {
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Colors.black,
+            color: Colors.white,
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -700,7 +696,9 @@ class _RegistrationState extends State<Registration> {
             ),
             Text(
               'Please provide following information about you',
-              style: TextStyle(color: Colors.white, fontSize: 10),
+              style: TextStyle(
+                fontSize: 10,
+              ),
             )
           ],
         ),
@@ -867,7 +865,6 @@ class _RegistrationState extends State<Registration> {
     );
   }
 }
-
 
 class HeightScreen extends StatefulWidget {
   @override
